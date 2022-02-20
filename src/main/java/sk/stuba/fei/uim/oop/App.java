@@ -2,14 +2,16 @@ package sk.stuba.fei.uim.oop;
 
 public class App {
     public static void main(String [] args) {
-        System.out.println("Hello World");
 
-        int celeCislo=34;
-        long celeCisloVacsie=34L;
-        float desatinneSinglePrecision=3.4f;
-        double desatinneDoublePrecision=3.4;
-        char znak='w';
-        String retazec="something";
+        int podiel=3/4; //0
+        System.out.println(podiel);
+
+        int zvysokPoDeleni=3%4; //3
+        System.out.println(zvysokPoDeleni);
+
+        float podielDesatiny=3/4.0f; //aspon jedno cislo musi byt desatinne
+        System.out.println(podielDesatiny);
+
 
     }
 }
