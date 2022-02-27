@@ -21,7 +21,12 @@ public class App {
 
         }
         for(int i=0;i<mojePole.length;i++){
-            System.out.println(i+ " : " +mojePole[i]);
+            //System.out.println(i+ " : " +mojePole[i]);
+            App.vypis(i);
         }
+
+    }
+    public static void vypis(int a){
+        System.out.println(String.format("Funkcia bola zavolaná %d.krát",a+1)); //a+1 pretoze polia sa indexuju od 0 co je v tomto pripade nedava zmysel
     }
 }
